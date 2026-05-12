@@ -59,5 +59,5 @@ https://github.com/Seower/AQI-Data-Science-Project/tree/main/AQI-Data-Science-Pr
 
 Report File
 
-https://github.com/Seower/AQI-Data-Science-Project/tree/main/AQI-Data-Science-Project/report
+[AQI Data Science Project Report](https://github.com/Qaim-Ali727/AQI-Data-Science-Project-/tree/main/Report)
 ```
