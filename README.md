@@ -55,9 +55,9 @@ Summary of Main Findings:
 
 Screenshots of Important Charts
 
-https://github.com/Seower/AQI-Data-Science-Project/tree/main/AQI-Data-Science-Project/outputs/charts
+https://github.com/Qaim-Ali727/AQI-Data-Science-Project-/tree/main/Outputs/charts 
 
 Report File
 
-[AQI Data Science Project Report](https://github.com/Qaim-Ali727/AQI-Data-Science-Project-/tree/main/Report)
+https://github.com/Qaim-Ali727/AQI-Data-Science-Project-/tree/main/Report
 ```
