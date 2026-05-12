@@ -1,0 +1,66 @@
+PART A – RESULTS
+
+• Dataset: 3660 rows, 13 columns
+• Key features: PM2.5, PM10, NO2, SO2, CO, O3
+• Target: AQI Category
+• Missing values: None
+• Duplicates: None
+
+
+PART B – CLEANING
+
+• Removed duplicate rows
+• Filled missing values using mean values
+• Converted Date column into datetime format
+• Created Year and Month columns
+• Renamed columns for easier analysis
+
+
+PART C – AQI CATEGORY
+
+• AQI values converted into categories from Good to Hazardous
+
+
+PART D – EDA
+
+• Most AQI records belong to Moderate and Unhealthy categories
+• PM2.5 strongly increases AQI
+• PM10 and AQI show strong positive correlation
+• AQI changes across different countries and years
+• Air pollution is mainly affected by particulate matter pollutants
+
+
+PART E – KNN
+
+• Best k = 7
+• Accuracy = 0.25
+• KNN showed weaker performance because AQI classes overlap
+
+
+PART F – NAIVE BAYES
+
+• Accuracy = 0.3866
+• Naive Bayes performed better than KNN
+• Model showed bias toward dominant AQI categories
+
+
+PART G – K-MEANS
+
+• Number of clusters = 3
+• Clusters represent low, medium, and high pollution
+• Clustering results are meaningful and interpretable
+
+
+PART H – PCA
+
+• Variance explained = 21.4%
+• PCA successfully reduced data into 2 dimensions
+• PCA showed weak but useful separation between pollution patterns
+
+
+FINAL SUMMARY
+
+• Best performing model: Naive Bayes
+• K-Means clustering successfully created 3 pollution groups
+• PCA helped visualize pollution patterns despite lower variance
+• PM2.5 was the most important pollutant related to AQI
